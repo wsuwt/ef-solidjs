@@ -14,8 +14,8 @@
     "vite-plugin-solid": "^2.2.6"
   },
   "dependencies": {
-    "@refinitiv-ui/elements": "next",
-    "@refinitiv-ui/halo-theme": "next",
+    "@refinitiv-ui/elements": "0.0.0-dev.2446592245.1",
+    "@refinitiv-ui/halo-theme": "0.0.0-dev.2446592245.1",
     "solid-js": "^1.4.2"
   }
 }
