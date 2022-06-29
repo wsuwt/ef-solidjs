@@ -1,4 +1,4 @@
-name: Build
+name: Bundle size report
 
 on:
   pull_request:
@@ -13,8 +13,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm ci
-      - run: npm run build
       - uses: pkg-size/action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
